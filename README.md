@@ -8,6 +8,11 @@ ITCSS is an archiecture methodology for scalable CSS by [@csswizardry](https://t
 To learn more, watch his talk [Managing CSS Projects with ITCSS](https://www.youtube.com/watch?v=1OKZOV-iLj4).
 
 ```
+bower install bootstrap-itscss --save
+
+```
+
+```
 ├── base
 │   ├── _code.scss
 │   ├── _component-animations.scss
