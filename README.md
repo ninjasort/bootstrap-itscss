@@ -16,8 +16,6 @@ To learn more, watch his talk [Managing CSS Projects with ITCSS](https://www.you
 │   ├── _scaffolding.scss
 │   ├── _tables.scss
 │   └── _type.scss
-├── bootstrap-it.scss
-├── bower.json
 ├── components
 ├── generic
 │   ├── _normalize.scss
@@ -96,4 +94,5 @@ To learn more, watch his talk [Managing CSS Projects with ITCSS](https://www.you
 ├── trumps
 │   ├── _responsive-utilities.scss
 │   └── _utilities.scss
+├── bootstrap-it.scss
 ```
