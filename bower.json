@@ -1,0 +1,20 @@
+{
+  "name": "bootstrap-itscss",
+  "version": "0.1.0",
+  "authors": [
+    "Cameron J Roe <cameronjroe@gmail.com>"
+  ],
+  "description": "ITCSS port of Bootstrap SASS",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.4"
+  }
+}
