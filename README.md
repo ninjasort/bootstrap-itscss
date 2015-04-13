@@ -9,7 +9,6 @@ To learn more, watch his talk [Managing CSS Projects with ITCSS](https://www.you
 
 ```
 bower install bootstrap-itscss --save
-
 ```
 
 ```
