@@ -1,0 +1,10 @@
+{
+  "name": "bootstrap-itscss",
+  "version": "0.1.0",
+  "description": "> ITCSS (Inverted Triangle CSS) port of Bootstrap SASS",
+  "main": "./bootstrap-it.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cameronjroe/bootstrap-itscss.git"
+  }
+}
