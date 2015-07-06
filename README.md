@@ -7,8 +7,10 @@
 ITCSS is an archiecture methodology for scalable CSS by [@csswizardry](https://twitter.com/csswizardry).
 To learn more, watch his talk [Managing CSS Projects with ITCSS](https://www.youtube.com/watch?v=1OKZOV-iLj4).
 
+*No longer using bower*
+
 ```
-bower install bootstrap-itscss --save
+npm i bootstrap-itscss --save
 ```
 
 ```
