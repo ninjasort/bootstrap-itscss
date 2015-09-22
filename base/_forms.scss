@@ -1,12 +1,9 @@
 //
 // Forms
 // --------------------------------------------------
-
-
 // Normalize non-controls
 //
 // Restyle and baseline non-control form elements.
-
 fieldset {
   padding: 0;
   margin: 0;
@@ -36,13 +33,11 @@ label {
   font-weight: bold;
 }
 
-
 // Normalize form controls
 //
 // While most of our form styles require extra classes, some basic normalization
 // is required to ensure optimum display with or without those classes to better
 // address browser inconsistencies.
-
 // Override content-box in Normalize (* isn't specific enough)
 input[type="search"] {
   @include box-sizing(border-box);
@@ -95,11 +90,9 @@ output {
 // `.form-control` class can properly style them. Note that this cannot simply
 // be added to `.form-control` as it's not specific enough. For details, see
 // https://github.com/twbs/bootstrap/issues/11586.
-
 input[type="search"] {
   -webkit-appearance: none;
 }
-
 
 // Special styles for iOS temporal inputs
 //
@@ -107,19 +100,16 @@ input[type="search"] {
 // text within the input to become vertically misaligned. As a workaround, we
 // set a pixel line-height that matches the given height of the input, but only
 // for Safari. See https://bugs.webkit.org/show_bug.cgi?id=139848
-
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   input[type="date"],
   input[type="time"],
   input[type="datetime-local"],
   input[type="month"] {
     line-height: $input-height-base;
-
     &.input-sm,
     .input-group-sm & {
       line-height: $input-height-small;
     }
-
     &.input-lg,
     .input-group-lg & {
       line-height: $input-height-large;

@@ -1,7 +1,6 @@
 //
 // Labels
 // --------------------------------------------------
-
 .label {
   display: inline;
   padding: .2em .6em .3em;
@@ -13,14 +12,11 @@
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .25em;
-
   // [converter] extracted a& to a.label
-
   // Empty labels collapse automatically (not available in IE8)
   &:empty {
     display: none;
   }
-
   // Quick fix for labels in buttons
   .btn & {
     position: relative;
@@ -40,7 +36,6 @@ a.label {
 
 // Colors
 // Contextual variations (linked labels get darker on :hover)
-
 .label-default {
   @include label-variant($label-default-bg);
 }

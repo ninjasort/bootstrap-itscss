@@ -1,8 +1,6 @@
 //
 // Scaffolding
 // --------------------------------------------------
-
-
 // Reset the box-sizing
 //
 // Heads up! This reset may cause conflicts with some third-party widgets.
@@ -11,17 +9,16 @@
 * {
   @include box-sizing(border-box);
 }
+
 *:before,
 *:after {
   @include box-sizing(border-box);
 }
 
-
 // Body reset
-
 html {
   font-size: 10px;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
@@ -42,37 +39,29 @@ textarea {
   line-height: inherit;
 }
 
-
 // Links
-
 a {
   color: $link-color;
   text-decoration: none;
-
   &:hover,
   &:focus {
     color: $link-hover-color;
     text-decoration: $link-hover-decoration;
   }
-
   &:focus {
     @include tab-focus;
   }
 }
 
-
 // Figures
 //
 // We reset this here because previously Normalize had no `figure` margins. This
 // ensures we don't break anyone's use of the element.
-
 figure {
   margin: 0;
 }
 
-
 // Images
-
 img {
   vertical-align: middle;
 }
@@ -97,7 +86,6 @@ img {
   border: 1px solid $thumbnail-border;
   border-radius: $thumbnail-border-radius;
   @include transition(all .2s ease-in-out);
-
   // Keep them at most 100% wide
   @include img-responsive(inline-block);
 }
@@ -107,21 +95,17 @@ img {
   border-radius: 50%; // set radius in percents
 }
 
-
 // Horizontal rules
-
 hr {
-  margin-top:    $line-height-computed;
+  margin-top: $line-height-computed;
   margin-bottom: $line-height-computed;
   border: 0;
   border-top: 1px solid $hr-border;
 }
 
-
 // Only display content to screen readers
 //
 // See: http://a11yproject.com/posts/how-to-hide-content/
-
 .sr-only {
   position: absolute;
   width: 1px;
@@ -129,14 +113,13 @@ hr {
   margin: -1px;
   padding: 0;
   overflow: hidden;
-  clip: rect(0,0,0,0);
+  clip: rect(0, 0, 0, 0);
   border: 0;
 }
 
 // Use in conjunction with .sr-only to only display content when it's focused.
 // Useful for "Skip to main content" links; see http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G1
 // Credit: HTML5 Boilerplate
-
 .sr-only-focusable {
   &:active,
   &:focus {
@@ -149,14 +132,12 @@ hr {
   }
 }
 
-
 // iOS "clickable elements" fix for role="button"
 //
 // Fixes "clickability" issue (and more generally, the firing of events such as focus as well)
 // for traditionally non-focusable elements with role="button"
 // see https://developer.mozilla.org/en-US/docs/Web/Events/click#Safari_Mobile
 // Upstream patch for normalize.css submitted: https://github.com/necolas/normalize.css/pull/379 - remove this fix once that is merged
-
 [role="button"] {
   cursor: pointer;
 }

@@ -2,12 +2,10 @@
 //
 // Easily pump out default styles, as well as :hover, :focus, :active,
 // and disabled options for all buttons
-
 @mixin button-variant($color, $background, $border) {
   color: $color;
   background-color: $background;
   border-color: $border;
-
   &:hover,
   &:focus,
   &.focus,
@@ -16,7 +14,7 @@
   .open > &.dropdown-toggle {
     color: $color;
     background-color: darken($background, 10%);
-	border-color: darken($border, 12%);
+    border-color: darken($border, 12%);
   }
   &:active,
   &.active,
@@ -33,10 +31,9 @@
     &:active,
     &.active {
       background-color: $background;
-	  border-color: $border;
+      border-color: $border;
     }
   }
-
   .badge {
     color: $background;
     background-color: $color;
