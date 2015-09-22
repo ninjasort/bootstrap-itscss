@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-itscss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> ITCSS (Inverted Triangle CSS) port of Bootstrap SASS",
   "main": "./bootstrap-it.scss",
   "repository": {
